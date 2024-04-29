@@ -29,3 +29,15 @@
   color: grey;
   font-weight: 400;
 }
+
+div.remy {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  justify-content: space-between;
+}
