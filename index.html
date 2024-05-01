@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Future Me</title>
-        <!--FAVICON-->
-        <link 
-            rel="icon" 
-            type="image/x-icon" 
-            href="nkxlcvbjnkxlcvbjnkznxcvbj-removebg-preview.png"
-        />
-        <!-- Required meta tags -->
-        <meta 
-            charset="utf-8"
-        />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <!-- Bootstrap CSS v5.3.2 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link 
-            rel="stylesheet" 
-            href="style.css"
-        />
+<head>
+    <title>Future Me</title>
+    <!--FAVICON-->
+    <link 
+        rel="icon" 
+        type="image/x-icon" 
+        href="nkxlcvbjnkxlcvbjnkznxcvbj-removebg-preview.png"
+    />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6lirA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    </head>
-
-    <body>
-        <h1 class="title mt-1">My Future</h1>
-        <h5 class="subtitle mt-2">As a software engineer</h5>
-        <!--Info-->
-        <div class="container mt-4">
-            <h1 class="mx-auto mt-2">Career Paths</h1>
-            <div class="row row-cols-auto d-flex">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <h1>Game Development</h1>
-                    <hr>
-                    <div class="card-body">
-                        Game developers are the people who build games, from the gameplay to the story. They wield much power in indie studios, and form the crux of any game studio.
-                    </div>
-                    <button class="btn mb-1"  onclick="scrollToSection('game-dev')">
-                        Learn More
-                    </button>
+<body>
+    <h1 class="title mt-1">My Future</h1>
+    <h5 class="subtitle mt-2">As a software engineer</h5>
+    <!--Info-->
+    <div class="container mt-4">
+        <h1 class="mx-auto mt-2">Career Paths</h1>
+        <div class="row row-cols-auto d-flex">
+            <div class="card mx-auto" style="width: 18rem;">
+                <h1>Game Development</h1>
+                <hr>
+                <div class="card-body">
+                    Game developers are the people who build games, from the gameplay to the story. They wield much power in indie studios, and form the crux of any game studio.
                 </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <h1>Website Design</h1>
-                    <hr>
-                    <div class="card-body">
-                        Website designers are those who code and design websites, typically specializing in front-end. They can, at times, work in back-end as well.
-                    </div>
-                    <button class="btn mb-1" onclick="scrollToSection('web-design')">
-                        Learn More
-                    </button>
-                </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <h1>Computer Security</h1>
-                    <hr>
-                    <div class="card-body">
-                        Cybersecurity experts develop and test anti-virus applications and other forms of digital protection. They can have knowledge in hacking to become white hat hackers, or just to know the threat they combat.
-                    </div>
-                    <button class="btn mb-1" onclick="scrollToSection('cybersec')">
-                        Learn More
-                    </button>
-                </div>
+                <button class="btn mb-1"  onclick="scrollToSection('game-dev')">
+                    Learn More
+                </button>
             </div>
-            <div class="row row-cols-auto d-flex" id="game-dev">
-                
+            <div class="card mx-auto" style="width: 18rem;">
+                <h1>Website Design</h1>
+                <hr>
+                <div class="card-body">
+                    Website designers are those who code and design websites, typically specializing in front-end. They can, at times, work in back-end as well.
+                </div>
+                <button class="btn mb-1" onclick="scrollToSection('web-design')">
+                    Learn More
+                </button>
+            </div>
+            <div class="card mx-auto" style="width: 18rem;">
+                <h1>Computer Security</h1>
+                <hr>
+                <div class="card-body">
+                    Cybersecurity experts develop and test anti-virus applications and other forms of digital protection. They can have knowledge in hacking to become white hat hackers, or just to know the threat they combat.
+                </div>
+                <button class="btn mb-1" onclick="scrollToSection('cybersec')">
+                    Learn More
+                </button>
             </div>
         </div>
-        <!--Links-->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-        <script src="script.js"></script>
-    </body>
+        <h1>Final Comparison</h1>
+        <table class="styled-table mx-auto">
+            <thead>
+                <tr>
+                    <th>Career</th>
+                    <th>Salary</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Game Dev</td>
+                    <td>$108,471</td>
+                    <td>
+                        <ul>
+                            <li>Designing gameplay</li>
+                            <li>Developing story</li>
+                            <li>Coding games</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="active-row">
+                    <td>Web Design</td>
+                    <td>$64,193</td>
+                    <td>Designing website layouts, coding websites, working on functionality</td>
+                </tr>
+                <tr>
+                    <td>Cybersec</td>
+                    <td>$147,138</td>
+                    <td>White hat hacking, developing malware protection software, analyzing data</td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+        </table>
+        <!-- Additional Information Sections -->
+        <div class="row row-cols-auto d-flex" id="game-dev">
+            <h2>Game Development</h2>
+            <p>
+                Game development involves creating video games for various platforms such as consoles, computers, and mobile devices. Game developers utilize programming languages, game engines, and design principles to bring games to life. They work on aspects like gameplay mechanics, graphics, audio, and storytelling.
+            </p>
+        </div>
+        <div class="row row-cols-auto d-flex" id="web-design">
+            <h2>Website Design</h2>
+            <p>
+                Website designers are responsible for creating the visual and interactive elements of websites. They use HTML, CSS, and JavaScript to structure and style web pages, ensuring they are both aesthetically pleasing and functional. Website designers also consider user experience and accessibility when designing websites.
+            </p>
+        </div>
+        <div class="row row-cols-auto d-flex" id="cybersec">
+            <h2>Computer Security</h2>
+            <p>
+                Computer security, or cybersecurity, involves protecting computer systems and networks from cyber threats such as malware, phishing, and hacking. Cybersecurity professionals develop and implement security measures to safeguard sensitive information and prevent unauthorized access to digital assets. They also conduct risk assessments and respond to security incidents.
+            </p>
+        </div>
+    </div>
+    <!--Links-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
 </html>
