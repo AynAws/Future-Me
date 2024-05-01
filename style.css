@@ -118,3 +118,7 @@ button:active {
   font-weight: bold;
   color: #009879;
 }
+
+img {
+  height: 200px;
+}
