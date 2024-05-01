@@ -26,7 +26,6 @@
 
 .subtitle {
   text-align: center;
-  color: grey;
   font-weight: 400;
 }
 
@@ -40,4 +39,45 @@ h1 {
 
 .width {
   width: 18rem;
+}
+
+body, .card, hr {
+  background-color: black;
+  color: green;
+  border-color: rgba(255, 255, 255, 0.671);
+  border-width: 2px;
+}
+
+button:hover {
+  animation-name: scale;
+  animation-timing-function: linear;
+  animation-duration: 50ms;
+  background-color: white;
+  border-color: white;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale {
+  from {
+    scale: 100%;
+  }
+  to {
+    scale: 110%;
+  }
+}
+
+button:active {
+  animation-name: scalea;
+  animation-timing-function: linear;
+  animation-duration: 50ms;
+}
+
+@keyframes scalea {
+  from {
+    scale: 100%;
+  }
+  to {
+    scale: 80%;
+    rotate: 10deg;
+  }
 }
